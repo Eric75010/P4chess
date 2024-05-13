@@ -49,7 +49,7 @@
 #
 ####**1.**Cloner le dépôt** Github sur votre machine locale en utilisant la commande suivante :
 #
-####rgb(9, 105, 218)```git clone https://github.com/Eric75010/P4chess.git```
+####```git clone https://github.com/Eric75010/P4chess.git```
 #
 ####**2.Installer les dépendances**Python requises en éxécutant la commnade suivante dans le répertoire du projet :
 #
