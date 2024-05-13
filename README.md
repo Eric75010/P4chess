@@ -5,20 +5,17 @@
 ####P4 Chess est un programme hors ligne permettant de gérer des tournois d'échec de façon autonome tout en sauvegardant tous les résultats des tournois.
 #
 #
-#
 ##**Fonctionnalités**
 #
-#
+
 ###**_Gestion des joueurs_**
 #
-#
+
 ####L'application permet aux utilisateurs de gérer les joueurs : 
 #
 ####- Ajouter de nouveaux joueurs, avec leurs noms, prénoms et date de naissance.
 ####- Mettre à jour les informations des joueurs existants.
 ####- Supprimer des joueurs de la base de données.
-#
-#
 #
 ###**_Gestion des tournois_**
 #
@@ -28,19 +25,13 @@
 ####-Organiser les joueurs inscrits dans le tournoi en fonction de divers critères tels que le classement ou le score
 ####-Suivre le déroulement des tournois, y compris les tours, les matchs et les scores des joueurs.
 #
-#
-#
 ###**_Géneration dynamique des paires-**
 #
 ####La génération dynamique des paires garantit des matchs uniques en fonction des résultats précédent des joueurs, les paires sont générées automatiquement en #fonction des scores des joueurs dans le tournoi en cours en évitant des matchs répétés entre mêmes joueurs.
 #
-#
-#
 ###**_Suivi des résultats_**
 #
 ####L'application enregistre automatiquement les résultats des matchs et met à jour les scores des joueurs en fonction des résultats, ce qui permet aux utilisateurs de suivre facilement les performances des joueurs et de déterminer les gagnants du tournoi.
-#
-#
 #
 ###**_Rapports_**
 #
@@ -51,9 +42,6 @@
 ####- Le nom et la date d’un tournoi donné.
 ####- La liste des joueurs du tournoi par ordre alphabétique.
 ####- La liste de tous les tours du tournoi et de tous les matchs du tour.
-#
-#
-#
 #
 ##**INSTALLATION**
 #
@@ -73,8 +61,6 @@
 ####Pour utiliser l'application, exécutez simplement le fichier '**__controller.py__**'
 #
 ####Suivez ensuite les instructions dans l'interface utilisateur en ligne de commande pour interragir avec le programme.
-#
-#
 #
 #
 ###**AUTEUR**
