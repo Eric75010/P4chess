@@ -1,5 +1,5 @@
 # P4chess
-![Développez un programme logiciel en Python](P4 Chess.png)
+![Développez un programme logiciel en Python](P4_Chess.png)
 ## **DESCRIPTION**
 #
 ####P4 Chess est un programme hors ligne permettant de gérer des tournois d'échec de façon autonome tout en sauvegardant tous les résultats des tournois.
