@@ -1,22 +1,22 @@
 # P4chess
 ![Développez un programme logiciel en Python](P4_Chess.png)
 ## **DESCRIPTION**
-#
-####P4 Chess est un programme hors ligne permettant de gérer des tournois d'échec de façon autonome tout en sauvegardant tous les résultats des tournois.
-#
-#
-##**Fonctionnalités**
-#
 
-###**_Gestion des joueurs_**
-#
+#### P4 Chess est un programme hors ligne permettant de gérer des tournois d'échec de façon autonome tout en sauvegardant tous les résultats des tournois.
 
-####L'application permet aux utilisateurs de gérer les joueurs : 
-#
-####- Ajouter de nouveaux joueurs, avec leurs noms, prénoms et date de naissance.
-####- Mettre à jour les informations des joueurs existants.
-####- Supprimer des joueurs de la base de données.
-#
+
+## **Fonctionnalités**
+
+
+### **_Gestion des joueurs_**
+
+
+#### L'application permet aux utilisateurs de gérer les joueurs : 
+
+#### - Ajouter de nouveaux joueurs, avec leurs noms, prénoms et date de naissance.
+#### - Mettre à jour les informations des joueurs existants.
+#### - Supprimer des joueurs de la base de données.
+
 ###**_Gestion des tournois_**
 #
 ####La fonction de gestion des tournois permet aux utilisaturs de : 
