@@ -58,7 +58,7 @@
 #
 ##**UTILISATION**
 #
-####Pour utiliser l'application, exécutez simplement le fichier '**__controller.py__**'
+####Pour utiliser l'application, exécutez simplement le fichier '**__main.py__**'
 #
 ####Suivez ensuite les instructions dans l'interface utilisateur en ligne de commande pour interragir avec le programme.
 #
