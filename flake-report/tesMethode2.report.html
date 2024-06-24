@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>flake8 violations: tesMethode2.py</title>
+      <meta http-equiv="Content-Type" value="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="styles.css">
+<script>
+function bindHandler(link) {
+   var code = link.getAttribute('data-code');
+   var key = location.pathname + '#' + code;
+
+   var ul = link.parentNode.querySelector('.details');
+   if (sessionStorage[key] != 'open') {
+      ul.style.display = 'none';
+   }
+   link.addEventListener('click', function (event) {
+      if (!ul.style.display || ul.style.display == 'none') {
+         ul.style.display = 'block';
+         sessionStorage[key] = 'open';
+      } else {
+         ul.style.display = 'none';
+         sessionStorage[key] = 'closed';
+      }
+   });
+}
+
+window.addEventListener('DOMContentLoaded', function () {
+   var links = document.querySelectorAll('#index > li > a');
+   for (var i = 0; i < links.length; i++) {
+      bindHandler(links[i]);
+   }
+});
+</script>
+   </head>
+   <body>
+      <div id="masthead" class="sev-2"></div>
+      <div id="page">
+         <p id="srclink">
+            <a title="View full annotated source"
+               href="tesMethode2.source.html">
+               <img src="file.svg" alt="&#x2261;">
+            </a></p>
+         <h1>
+            <a href="index.html">
+               <img src="back.svg" alt="&#x2B05;">
+               tesMethode2.py
+            </a>
+         </h1>
+
+         <ul id="index">
+         
+         <li>
+            <a data-code="E501">
+               <span class="count sev-2">
+                  18
+               </span>
+               <strong>E501:</strong> line too long (96 > 79 characters)
+               
+                  (and 13 similar)
+               
+            </a>
+            <ul class="details">
+            <li>
+               
+               <p>Line too long (96 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l33">
+                  <tt><i>33</i>     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tournament_name</span><span class="p">,</span> <span class="n">place</span><span class="p">,</span> <span class="n">start_date</span><span class="p">,</span> <span class="n">end_date</span><span class="p">,</span> <span class="n">round_number</span><span class="p">,</span> <span class="n">description</span><span class="p">):</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (81 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l47">
+                  <tt><i>47</i>             <span class="k">match</span><span class="o">.</span><span class="n">result</span> <span class="o">=</span> <span class="p">([</span><span class="n">match</span><span class="o">.</span><span class="n">player1</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">],</span> <span class="p">[</span><span class="n">match</span><span class="o">.</span><span class="n">player2</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">])</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (80 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l56">
+                  <tt><i>56</i>         <span class="n">player_by_scores</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">players</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">points</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (98 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l74">
+                  <tt><i>74</i>         <span class="n">unpaired_players</span> <span class="o">=</span> <span class="p">[</span><span class="n">player</span> <span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">player_by_scores</span> <span class="k">if</span> <span class="n">player</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">paired_players</span><span class="p">]</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (89 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l76">
+                  <tt><i>76</i>             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The player </span><span class="si">{</span><span class="n">unpaired_players</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> is waiting for another player&quot;</span><span class="p">)</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (87 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l82">
+                  <tt><i>82</i>             <span class="k">if</span> <span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">player1</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">id</span> <span class="ow">and</span> <span class="n">match</span><span class="o">.</span><span class="n">player2</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">id</span><span class="p">)</span> <span class="ow">or</span> \</tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (88 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l83">
+                  <tt><i>83</i>                     <span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">player1</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">id</span> <span class="ow">and</span> <span class="n">match</span><span class="o">.</span><span class="n">player2</span><span class="o">.</span><span class="n">id</span> <span class="o">==</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">id</span><span class="p">):</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (85 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l96">
+                  <tt><i>96</i>                 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The player </span><span class="si">{</span><span class="n">players</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> is waiting for another player&quot;</span><span class="p">)</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (93 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l99">
+                  <tt><i>99</i>             <span class="n">pairs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">generate_pair_by_score</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">registered_players</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">played_matches</span><span class="p">)</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (83 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l140">
+                  <tt><i>140</i>             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ID: </span><span class="si">{</span><span class="n">player</span><span class="o">.</span><span class="n">id</span><span class="si">}</span><span class="s2">, Name: </span><span class="si">{</span><span class="n">player</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">, Points: </span><span class="si">{</span><span class="n">player</span><span class="o">.</span><span class="n">points</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (97 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l144">
+                  <tt><i>144</i>             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Match: </span><span class="si">{</span><span class="n">match</span><span class="o">.</span><span class="n">player1</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> vs </span><span class="si">{</span><span class="n">match</span><span class="o">.</span><span class="n">player2</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">, Result: </span><span class="si">{</span><span class="n">match</span><span class="o">.</span><span class="n">result</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (101 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l154">
+                  <tt><i>154</i>     <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;CC12345&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;bill&quot;</span><span class="p">,</span> <span class="s2">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;kill&quot;</span><span class="p">,</span> <span class="s2">&quot;date_of_birth&quot;</span><span class="p">:</span> <span class="s2">&quot;06072000&quot;</span><span class="p">,</span> <span class="s2">&quot;points&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">},</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (99 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l155">
+                  <tt><i>155</i>     <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;AV12345&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;tim&quot;</span><span class="p">,</span> <span class="s2">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;det&quot;</span><span class="p">,</span> <span class="s2">&quot;date_of_birth&quot;</span><span class="p">:</span> <span class="s2">&quot;06092100&quot;</span><span class="p">,</span> <span class="s2">&quot;points&quot;</span><span class="p">:</span> <span class="mi">4</span><span class="p">},</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (99 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l156">
+                  <tt><i>156</i>     <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;BZ12345&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;ric&quot;</span><span class="p">,</span> <span class="s2">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;jim&quot;</span><span class="p">,</span> <span class="s2">&quot;date_of_birth&quot;</span><span class="p">:</span> <span class="s2">&quot;09082010&quot;</span><span class="p">,</span> <span class="s2">&quot;points&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">},</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (102 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l157">
+                  <tt><i>157</i>     <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;UU12345&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;jill&quot;</span><span class="p">,</span> <span class="s2">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;tily&quot;</span><span class="p">,</span> <span class="s2">&quot;date_of_birth&quot;</span><span class="p">:</span> <span class="s2">&quot;06072000&quot;</span><span class="p">,</span> <span class="s2">&quot;points&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">},</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (102 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l158">
+                  <tt><i>158</i>     <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;AH12345&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;marcel&quot;</span><span class="p">,</span> <span class="s2">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;pro&quot;</span><span class="p">,</span> <span class="s2">&quot;date_of_birth&quot;</span><span class="p">:</span> <span class="s2">&quot;06072012&quot;</span><span class="p">,</span> <span class="s2">&quot;points&quot;</span><span class="p">:</span> <span class="mi">7</span><span class="p">},</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (102 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l159">
+                  <tt><i>159</i>     <span class="p">{</span><span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;AH54321&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;celo&quot;</span><span class="p">,</span> <span class="s2">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;amro&quot;</span><span class="p">,</span> <span class="s2">&quot;date_of_birth&quot;</span><span class="p">:</span> <span class="s2">&quot;06072020&quot;</span><span class="p">,</span> <span class="s2">&quot;points&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">},</span></tt>
+               </a>
+            </li><li>
+               
+               <p>Line too long (96 > 79 characters):</p>
+               
+               <a href="tesMethode2.source.html#l173">
+                  <tt><i>173</i> <span class="n">tournament</span> <span class="o">=</span> <span class="n">Tournament</span><span class="p">(</span><span class="n">tournament_name</span><span class="p">,</span> <span class="n">place</span><span class="p">,</span> <span class="n">start_date</span><span class="p">,</span> <span class="n">end_date</span><span class="p">,</span> <span class="n">round_number</span><span class="p">,</span> <span class="n">description</span><span class="p">)</span></tt>
+               </a>
+            </li>
+            </ul>
+         </li>
+         
+         </ul>
+      </div>
+   </body>
+</html>

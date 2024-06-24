@@ -1,0 +1,1765 @@
+[
+    {
+        "tournament_name": "ii",
+        "place": "iiii",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-08-09T00:00:00",
+        "round_number": 2,
+        "description": "ii",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "ric",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "marcel",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "bill",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "bill",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tournament_name": "t",
+        "place": "g",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-09-09T00:00:00",
+        "round_number": 4,
+        "description": "iu",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "ric",
+                        "result": null
+                    },
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tournament_name": "paris1",
+        "place": "po",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-08-09T00:00:00",
+        "round_number": 4,
+        "description": "iii",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "ric",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "bill",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "ric",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "bill",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "tournament_name": "tre",
+        "place": "ert",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-08-09T00:00:00",
+        "round_number": 2,
+        "description": "jh",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "players": [
+            {
+                "id": "AV12345",
+                "name": "tim"
+            },
+            {
+                "id": "AH12345",
+                "name": "marcel"
+            },
+            {
+                "id": "AH54321",
+                "name": "celo"
+            },
+            {
+                "id": "UU12345",
+                "name": "manu"
+            },
+            {
+                "id": "BZ12345",
+                "name": "ric"
+            },
+            {
+                "id": "CC12345",
+                "name": "bill"
+            }
+        ]
+    },
+    {
+        "tournament_name": "bix",
+        "place": "xib",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-08-09T00:00:00",
+        "round_number": 2,
+        "description": "oi",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "ric",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "manu",
+                                1
+                            ],
+                            [
+                                "ric",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "celo",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "celo",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "players": [
+            {
+                "id": "AH12345",
+                "name": "marcel"
+            },
+            {
+                "id": "CC12345",
+                "name": "bill"
+            },
+            {
+                "id": "UU12345",
+                "name": "manu"
+            },
+            {
+                "id": "BZ12345",
+                "name": "ric"
+            },
+            {
+                "id": "AH54321",
+                "name": "celo"
+            },
+            {
+                "id": "AV12345",
+                "name": "tim"
+            }
+        ]
+    },
+    {
+        "tournament_name": "ooo",
+        "place": "aaa",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-08-09T00:00:00",
+        "round_number": 4,
+        "description": "zszz",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "bill",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "marcel",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "manu",
+                        "result": [
+                            [
+                                "bill",
+                                1
+                            ],
+                            [
+                                "manu",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "celo",
+                                0
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "marcel",
+                                0.5
+                            ],
+                            [
+                                "bill",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "marcel",
+                        "player2": "bill",
+                        "result": [
+                            [
+                                "marcel",
+                                0.5
+                            ],
+                            [
+                                "bill",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "ric",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "tim",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "tim",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "tim",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    {
+                        "player1": "ric",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "ric",
+                                1
+                            ],
+                            [
+                                "marcel",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "tim",
+                        "result": [
+                            [
+                                "tim",
+                                1
+                            ],
+                            [
+                                "bill",
+                                0
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "players": [
+            {
+                "id": "AH12345",
+                "name": "marcel"
+            },
+            {
+                "id": "AV12345",
+                "name": "tim"
+            },
+            {
+                "id": "CC12345",
+                "name": "bill"
+            },
+            {
+                "id": "UU12345",
+                "name": "manu"
+            },
+            {
+                "id": "BZ12345",
+                "name": "ric"
+            },
+            {
+                "id": "AH54321",
+                "name": "celo"
+            }
+        ]
+    },
+    {
+        "tournament_name": "oooo",
+        "place": "ooooo",
+        "start_date": "2000-08-09T00:00:00",
+        "end_date": "2000-08-09T00:00:00",
+        "round_number": 4,
+        "description": "iiii",
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 1",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    {
+                        "player1": "tim",
+                        "player2": "celo",
+                        "result": [
+                            [
+                                "tim",
+                                0.5
+                            ],
+                            [
+                                "celo",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "bill",
+                        "player2": "ric",
+                        "result": [
+                            [
+                                "bill",
+                                0.5
+                            ],
+                            [
+                                "ric",
+                                0.5
+                            ]
+                        ]
+                    },
+                    {
+                        "player1": "manu",
+                        "player2": "marcel",
+                        "result": [
+                            [
+                                "manu",
+                                0.5
+                            ],
+                            [
+                                "marcel",
+                                0.5
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "players": [
+            {
+                "id": "AV12345",
+                "name": "tim"
+            },
+            {
+                "id": "AH54321",
+                "name": "celo"
+            },
+            {
+                "id": "CC12345",
+                "name": "bill"
+            },
+            {
+                "id": "BZ12345",
+                "name": "ric"
+            },
+            {
+                "id": "UU12345",
+                "name": "manu"
+            },
+            {
+                "id": "AH12345",
+                "name": "marcel"
+            }
+        ]
+    }
+]
