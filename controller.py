@@ -100,7 +100,7 @@ class Controller:
         """
         player = self.get_player_by_name(name)
         if not player:
-            player = player(name=name, firstname="", date_of_birth="", id=name)
+            player = Player(name=name, firstname="", date_of_birth="", id=name)
             self.player_controller.players.append(player)
         return player
 
@@ -117,7 +117,6 @@ class Controller:
             if player.name == name:
                 return player
         return None
-
     def reports(self):
         """
         Display various reports based on user selection.
@@ -471,7 +470,6 @@ class RunTournamentController:
             self.display_pairs(
                 pairs, round_number)
             self.record_matches(pairs, tournament, round_instance)
-            tournament.add_round(round_instance)
             if round_number < tournament.round_number:
                 print(
                     f"\nRound {round_number} completed."
@@ -490,19 +488,10 @@ class RunTournamentController:
         :param tournament: The tournament to add players to.
         :type tournament: Tournament
         """
-        ids = self.tournament_view.add_players_to_tournament()
-        for player_id in ids:
-            if player_id:
-                player = next(
-                    (p for p in self.player_controller.players
-                     if p.id == player_id),
-                    None,
-                )
-                if player:
-                    tournament.registered_players.append(player)
-                    print(player)
-                else:
-                    print(f"Player with ID {player_id} not found.")
+        print("Adding all displayed players to the tournament.")
+        tournament.registered_players = self.player_controller.players[:]
+        for player in tournament.registered_players:
+            print(f"Added player {player.name} with ID {player.id}")
 
     def record_match_result(self, match, winner=None, loser=None, draw=False):
         """
@@ -537,9 +526,8 @@ class RunTournamentController:
         """
         players = tournament.registered_players
         random.shuffle(players)
-        pairs = []
-        for i in range(0, len(players) - 1, 2):
-            pairs.append((players[i], players[i + 1]))
+        pairs = [(players[i], players[i + 1])
+                 for i in range(0, len(players) - 1, 2)]
         if len(players) % 2 != 0:
             print(f"The player"
                   f" {players[-1].name} is waiting for another player!")
@@ -609,44 +597,6 @@ class RunTournamentController:
                 return True
         return False
 
-    def generate_pairs_for_a_round(self, tournament, round_number):
-        """
-        Generate pairs of players for a round in the tournament.
-
-        :param tournament: The tournament where the pairs are generated.
-        :type tournament: Tournament
-        :param round_number: The current round number.
-        :type round_number: int
-        :return: A list of pairs of players.
-        :rtype: list
-        """
-        players = tournament.registered_players
-        print(players)
-        random.shuffle(players)
-        pairs = []
-        paired_players = set()
-
-        if round_number == 1:
-            for i in range(0, len(players), 2):
-                print(players[i])
-                if (
-                    players[i] not in paired_players
-                    and players[i + 1] not in paired_players
-                ):
-                    pairs.append((players[i], players[i + 1]))
-                    paired_players.add((players[i], players[i + 1]))
-
-            if (len(players) % 2 != 0
-                    and players[-1] not in paired_players):
-                print(f"The player {players[-1].name}"
-                      f" is waiting for another player")
-        else:
-            pairs = self.generate_pair_by_score(
-                players, tournament.played_matches)
-
-        self.previous_round_pairs[round_number] = pairs
-
-        return pairs
 
     def display_pairs(self, pairs, round_number):
         """
@@ -676,26 +626,33 @@ class RunTournamentController:
         :param round_instance: The current round instance.
         :type round_instance: Round
         """
-        for pair in pairs:
-            match = Match(pair[0], pair[1])
-            # Affiche le match
-            print(
-                f"\nMatch: {pair[0].name} ({pair[0].id})"
-                f" vs {pair[1].name} ({pair[1].id})")
-            (winner, loser,
-             draw) = self.input_match_scores(match)
-            self.update_player_scores(winner, loser, draw)
-            match = self.record_match_result(match, winner, loser, draw)
-            round_instance.add_match(match)
-            # Affiche le résultat du match
-            if draw:
-                print("Match nul!")
-            else:
-                if winner:
-                    print(f"{winner.name} a gagné!")
-                if loser:
-                    print(f"{loser.name} a perdu!")
-            print()
+        if len(tournament.rounds) == 0: #First round
+            for i, pair in enumerate(pairs):
+                match = Match(pair[0], pair[1])
+                winner, loser = pair[0], pair[1] #Assign in order
+                self.update_player_scores(winner, loser, draw=False)
+                match = self.record_match_result(match, winner, loser, draw=False)
+                round_instance.add_match(match)
+                print(f"{winner.name} a gagné! {loser.name} a perdu!")
+        else:
+            for pair in pairs:
+                match = Match(pair[0], pair[1])
+                print(
+                    f"\nMatch: {pair[0].name} ({pair[0].id})"
+                    f" vs {pair[1].name} ({pair[1].id})")
+                (winner, loser,
+                draw) = self.input_match_scores(match)
+                self.update_player_scores(winner, loser, draw)
+                match = self.record_match_result(match, winner, loser, draw)
+                round_instance.add_match(match)
+                if draw:
+                    print("Match nul!")
+                else:
+                    if winner:
+                        print(f"{winner.name} a gagné!")
+                    if loser:
+                        print(f"{loser.name} a perdu!")
+                print()
         tournament.add_round(round_instance)
 
     def display_round_matches(self, round_instance):
@@ -781,40 +738,17 @@ class RunTournamentController:
                 with open(filename, "r") as f:
                     data = json.load(f)
             except json.JSONDecodeError as e:
-                print(f"Erreur de découpage JSON: {e}")
+                print(f"JSON decoding error: {e}")
                 os.rename(filename, filename + ".corrupted")
 
         for tournament in self.tournaments:
-            tournament_data = {
-                "tournament_name": tournament.tournament_name,
-                "place": tournament.place,
-                "start_date": tournament.start_date.isoformat(),
-                "end_date": tournament.end_date.isoformat(),
-                "round_number": tournament.round_number,
-                "description": tournament.description,
-                "rounds": [],  # liste pour les tours
-                "players": [
-                    {"id": player.id, "name": player.name}
-                    for player in tournament.registered_players
-                ],
-            }
-
-            for round_instance in tournament.rounds:
-                round_data = {"name": round_instance.name, "matches": []}
-                for match in round_instance.matches:
-                    match_data = {
-                        "player1": match.player1.name,
-                        "player2": match.player2.name,
-                        "result": match.result,
-                    }
-                    round_data["matches"].append(match_data)
-                tournament_data["rounds"].append(round_data)
-
-            if not any(
-                t["tournament_name"] ==
-                tournament.tournament_name for t in data
-            ):
-                data.append(tournament_data)
+            if isinstance(tournament, Tournament):
+                tournament_data = tournament.to_json()
+                if not any(t["tournament_name"] ==
+                           tournament.tournament_name for t in data):
+                    data.append(tournament_data)
+            else:
+                print(f"Error: Found non-Tournament object in self.tournaments: {tournament}")
 
         with open(filename, "w") as f:
             json.dump(data, f, indent=4)

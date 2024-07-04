@@ -43,17 +43,17 @@ class PlayerView:
         :rtype: datetime
         """
         while True:
-            date_text = input("Enter player date of birth [DDMMYYYY] : ")
+            date_text = input("Enter player date of birth [DD/MM/YYYY] : ")
             date_of_birth_checked = self.validate_date_of_birth(date_text)
             if date_of_birth_checked:
                 return date_of_birth_checked.strftime("%m/%d/%Y")
             else:
                 print("Invalid date."
-                      "Please enter a valid date in the format DDMMYYYY.")
+                      "Please enter a valid date in the format DD/MM/YYYY.")
 
     def validate_date_of_birth(self, date_text):
         try:
-            return datetime.datetime.strptime(date_text, "%d%m%Y")
+            return datetime.datetime.strptime(date_text, "%d/%m/%Y")
         except ValueError:
             return False
 
